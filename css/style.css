@@ -1,6 +1,6 @@
 body{
 	background: linear-gradient(30deg, #1a1a8c, #b74155);
-	padding: 200px 0;
+	padding: 150px 0;
 	font-size: 25px;
 }
 
@@ -38,6 +38,7 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
+	letter-spacing: 8px;
 	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid grey;
