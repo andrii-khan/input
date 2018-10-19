@@ -1,0 +1,151 @@
+body{
+	background: linear-gradient(30deg, #1a1a8c, #b74155);
+	padding: 200px 0;
+	font-size: 25px;
+}
+
+/* Layout */
+/* .ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+} */
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background: linear-gradient(45deg, #ccc, #fff);
+	outline: none;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+label {
+	display: block;
+}
+.ba-form {
+	padding: 20px;
+	margin: 0 auto;
+	width: 60vw;
+	border-radius: 10px;
+	border: 3px solid #fff;
+}
+.ba-form-row {
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-point {
+	height: 5px;
+	width: 5px;
+	border: 1px solid #000;
+	background-color: #000;
+	border-radius: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+#input-mechanism {
+	font-family: mechanism;
+	text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.8);
+	background: linear-gradient(45deg, #fff , grey);
+	color: grey;
+	font-size: 25px;
+}
+#input-star {
+	font-family: star;
+	color: gold;	
+	background: linear-gradient(45deg, #fff , gold);
+	font-size: 25px;
+}
+#input-smile {
+	font-family: smile;
+	color: #0cbcff;
+	background: linear-gradient(45deg, #fff , #0cbcff);
+	font-size: 25px;
+}
+#input-devil {
+	font-family: devil;
+	background: linear-gradient(45deg, #fff, #cc5050);
+	color: red;
+	font-size: 25px;
+}
+#input-crown {
+	font-family: crown;
+	background: linear-gradient(45deg, #fff, goldenrod);
+	color: goldenrod;
+	font-size: 25px;
+}
+.mechanism::after {
+	content: '\2022';
+	font-size: 40px;
+	font-family: mechanism;
+	color: grey;
+	cursor: pointer;
+}
+.star::after {
+	content: '\2022';
+	font-size: 40px;
+	font-family: star;
+	color: gold;
+	cursor: pointer;	
+}
+.smile::after {
+	content: '\2022';
+	font-size: 40px;
+	font-family: smile;
+	color: #0cbcff;
+	cursor: pointer;
+}
+.devil::after {
+	content: '\2022';
+	font-size: 40px;
+	font-family: devil;
+	color: red;
+	cursor: pointer;
+}
+.crown::after {
+	content: '\2022';
+	font-size: 40px;
+	font-family: crown;
+	color: goldenrod;
+	cursor: pointer;
+}

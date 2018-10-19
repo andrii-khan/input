@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'mechanism';
+	src: url('../mechanism/fontello.eot?85863353');
+	src: url('../mechanism/fontello.eot?85863353#iefix') format('embedded-opentype'),
+	url('../mechanism/fontello.woff?85863353') format('woff'),
+	url('../mechanism/fontello.ttf?85863353') format('truetype'),
+	url('../mechanism/fontello.svg?85863353#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'star';
+	src: url('../star/fontello.eot?85863353');
+	src: url('../star/fontello.eot?85863353#iefix') format('embedded-opentype'),
+	url('../star/fontello.woff?85863353') format('woff'),
+	url('../star/fontello.ttf?85863353') format('truetype'),
+	url('../star/fontello.svg?85863353#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'smile';
+	src: url('../smile/fontello.eot?85863353');
+	src: url('../smile/fontello.eot?85863353#iefix') format('embedded-opentype'),
+	url('../smile/fontello.woff?85863353') format('woff'),
+	url('../smile/fontello.ttf?85863353') format('truetype'),
+	url('../smile/fontello.svg?85863353#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'devil';
+	src: url('../devil/fontello.eot?85863353');
+	src: url('../devil/fontello.eot?85863353#iefix') format('embedded-opentype'),
+	url('../devil/fontello.woff?85863353') format('woff'),
+	url('../devil/fontello.ttf?85863353') format('truetype'),
+	url('../devil/fontello.svg?85863353#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'crown';
+	src: url('../crown/fontello.eot?85863353');
+	src: url('../crown/fontello.eot?85863353#iefix') format('embedded-opentype'),
+	url('../crown/fontello.woff?85863353') format('woff'),
+	url('../crown/fontello.ttf?85863353') format('truetype'),
+	url('../crown/fontello.svg?85863353#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
